@@ -5677,7 +5677,7 @@ var init_id_svelte = __esm({
       let { data } = $$props;
       if ($$props.data === void 0 && $$bindings.data && data !== void 0)
         $$bindings.data(data);
-      return `<!-- HTML_TAG_START -->${data["sample-code"]}<!-- HTML_TAG_END -->`;
+      return `<!-- HTML_TAG_START -->${data.code}<!-- HTML_TAG_END -->`;
     });
   }
 });
@@ -5694,8 +5694,8 @@ var entry4, js4, css5;
 var init__4 = __esm({
   ".svelte-kit/output/server/nodes/3.js"() {
     init_id_svelte();
-    entry4 = "pages/demo/_id_.svelte-5665022a.js";
-    js4 = ["pages/demo/_id_.svelte-5665022a.js", "chunks/vendor-a78c422f.js"];
+    entry4 = "pages/demo/_id_.svelte-3b42b3d6.js";
+    js4 = ["pages/demo/_id_.svelte-3b42b3d6.js", "chunks/vendor-a78c422f.js"];
     css5 = [];
   }
 });
@@ -6741,7 +6741,7 @@ var init_id_svelte2 = __esm({
       if ($$props.demoUrl === void 0 && $$bindings.demoUrl && demoUrl !== void 0)
         $$bindings.demoUrl(demoUrl);
       $$result.css.add(css6);
-      code = import_prismjs.default.highlight(data["sample-code"], import_prismjs.default.languages.markup, "markup");
+      code = import_prismjs.default.highlight(data.code, import_prismjs.default.languages.markup, "markup");
       headerOpacity = Math.min(Math.max(0.9 - scrollTop / 400, 0), 1) + 0.1;
       return `
 
@@ -6768,8 +6768,8 @@ var entry5, js5, css7;
 var init__5 = __esm({
   ".svelte-kit/output/server/nodes/4.js"() {
     init_id_svelte2();
-    entry5 = "pages/_id_.svelte-d2a8531a.js";
-    js5 = ["pages/_id_.svelte-d2a8531a.js", "chunks/vendor-a78c422f.js"];
+    entry5 = "pages/_id_.svelte-0d423423.js";
+    js5 = ["pages/_id_.svelte-0d423423.js", "chunks/vendor-a78c422f.js"];
     css7 = ["assets/pages/_id_.svelte-ac3263df.css"];
   }
 });
@@ -8984,7 +8984,7 @@ var manifest = {
   assets: /* @__PURE__ */ new Set(["favicon.png"]),
   _: {
     mime: { ".png": "image/png" },
-    entry: { "file": "start-756c2f1c.js", "js": ["start-756c2f1c.js", "chunks/vendor-a78c422f.js"], "css": [] },
+    entry: { "file": "start-9de28acc.js", "js": ["start-9de28acc.js", "chunks/vendor-a78c422f.js"], "css": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
