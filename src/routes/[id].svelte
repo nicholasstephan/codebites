@@ -21,7 +21,7 @@
   export let data;
   export let demoUrl;
 
-  $: code = Prism.highlight(data['sample-code'], Prism.languages.markup, 'markup');
+  $: code = Prism.highlight(data.code, Prism.languages.markup, 'markup');
 
   let scrollTop = 0;
   $: headerOpacity = Math.min( Math.max(0.9 - scrollTop/400, 0), 1) + 0.1;

@@ -22,4 +22,4 @@ You can preview the production build with `npm run preview`.
 
 ## Deploy 
 
-
+Hosted on vercel. Deploy by pushing to 'main' branch.

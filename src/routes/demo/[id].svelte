@@ -15,4 +15,4 @@
   export let data;
 </script>
 
-{@html data['sample-code']}
+{@html data.code}
